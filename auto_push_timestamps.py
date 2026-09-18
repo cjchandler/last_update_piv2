@@ -52,6 +52,6 @@ while True:
 	except Exception as e:
 		print(e)
 		
-	tiem.sleep(2*60)
+        time.sleep(2*60)
     
     
