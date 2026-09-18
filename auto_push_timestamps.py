@@ -1,4 +1,4 @@
-#!/home/carl/Git_Projects/incubator/incubator/pi_incubator/envH/bin/python
+#!/home/carl/Git_Projects/last_update_piv2
 
 
 #ntfy messaging thing
@@ -21,10 +21,10 @@ def push_latest_timestamp( tval ):
     #push that to git
 
 # Run a command inside a specific folder
-    subprocess.run(["git",  "pull" ,  "origin" ,  "main" , "--no-edit" , "--allow-unrelated-histories"], cwd="/home/carl/Git_Projects/last_update_piv1")
-    subprocess.run(["git", "add", "."], cwd="/home/carl/Git_Projects/last_update_piv1")
-    subprocess.run(["git", "commit", "-a", "-m", 'data_automatic' ], cwd="/home/carl/Git_Projects/last_update_piv1")
-    subprocess.run(["git", "push" , "origin" , "main"], cwd="/home/carl/Git_Projects/last_update_piv1")
+    subprocess.run(["git",  "pull" ,  "origin" ,  "main" , "--no-edit" , "--allow-unrelated-histories"], cwd="/home/carl/Git_Projects/last_update_piv2")
+    subprocess.run(["git", "add", "."], cwd="/home/carl/Git_Projects/last_update_piv2")
+    subprocess.run(["git", "commit", "-a", "-m", 'data_automatic' ], cwd="/home/carl/Git_Projects/last_update_piv2")
+    subprocess.run(["git", "push" , "origin" , "main"], cwd="/home/carl/Git_Projects/last_update_piv2")
     
     print("backup via git is done")
 
